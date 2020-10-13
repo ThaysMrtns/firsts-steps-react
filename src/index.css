@@ -15,10 +15,10 @@ code {
 .header{
   display: grid;
   grid: 20px;
-  background-color: blue;
+  background-color: violet;
 }
 .footer{
   display: grid;
   grid: 20px;
-  background-color: blue;
+  background-color: violet;
 }

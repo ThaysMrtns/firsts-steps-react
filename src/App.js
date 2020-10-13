@@ -3,6 +3,7 @@ import './App.css';
 //Incluir os arquivos que possuem os componentes
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
+import Form from './components/content/form';
 
 //export default class App extends
 
@@ -12,6 +13,7 @@ export default class App extends React.Component{
     return (
       <div>
 		      <Header/>
+          <Form/>
           <Footer/>
       </div>
     )}
