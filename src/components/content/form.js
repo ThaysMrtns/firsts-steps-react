@@ -6,10 +6,11 @@ class Form extends React.Component{
     render(){
         return(
             <form>
-                <label>Título da tarefa: </label>
+                <label>Email de usuário: </label>
                 <input type="text"></input><br></br>
-                <label>Descrição: </label>
-                <input type="text"></input>
+                <label>Senha: </label>
+                <input type="text"></input><br></br>
+                <button type="submit">Adicionar</button>
             </form>
         );
     }
