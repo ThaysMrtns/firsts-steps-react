@@ -12,13 +12,35 @@ code {
     monospace;
 }
 
-.header{
+.app{
+  background: #f1f1f1; 
   display: grid;
-  grid: 20px;
-  background-color: violet;
+  grid-template-areas: 
+      "header"
+      "conteudo"
+      "footer";
+  grid-template-columns: auto;
+  grid-template-rows: 100px 100px auto;
 }
+
+.header{
+  color: blueviolet;
+  font-size: 100px;
+  grid-area: header;
+}
+
+.conteudo{
+  color: blueviolet;
+  font-size: large;
+}
+
 .footer{
-  display: grid;
-  grid: 20px;
-  background-color: violet;
+  color: blueviolet;
+  font-size: large;
+  grid-area: footer;
+}
+
+.titulo{
+  color: blueviolet;
+  font-size: large;
 }

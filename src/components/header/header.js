@@ -7,12 +7,12 @@ import style from '../header/header.module.css';
 class Header extends React.Component{
     render(){
         return(
-            <div className="app">
-                <h2 className={style.titulo}>Header</h2>
+            <div>
+                <h2>Header</h2>
             </div>
         );
     }
 }
-
+//className=style.titulo
 //Exportar o componente
 export default Header;

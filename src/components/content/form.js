@@ -10,7 +10,7 @@ class Form extends React.Component{
                 <input type="text"></input><br></br>
                 <label>Senha: </label>
                 <input type="text"></input><br></br>
-                <button type="submit">Adicionar</button>
+                <button type="submit">Entrar</button>
             </form>
         );
     }

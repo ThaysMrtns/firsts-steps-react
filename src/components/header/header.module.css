@@ -1,16 +1,4 @@
-.app{
-    background: #f1f1f1; 
-    display: grid;
-    grid-template-areas: 
-        "cabecalho"
-        "conteudo"
-        "rodape";
-    grid-template-columns: auto;
-    grid-template-rows: 50px auto auto;
-}
-
 .titulo{
     color: blueviolet;
     font-size: large;
-    grid-area: conteudo;
 }
